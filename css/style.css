@@ -1,0 +1,73 @@
+@import url(https://fonts.google.com/specimen/Oswald);
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'sans-serif';
+    font-weight: 400;
+    color: #1273ac;
+}
+
+/*cabecalho*/
+
+h1, p, h2{
+    text-align: center;
+}
+#titulo-principal{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'rubik moonrocks';
+    font-weight: 700;
+}
+/*cards*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    width: 300px;
+    margin: 25px;
+    border: 2px solid #abdcff;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #d3d3d3;
+}
+.card-imagem{
+    height: 300px;
+    background-size: cover;
+}
+.card-1 .card-imagem{
+    background-image: url(/img/kiki_1.jpg);
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+.card-2 .card-imagem{
+    background-image: url(/img/600full-princess-mononoke-screenshot.jpg);
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+.card-3 .card-imagem{
+    background-image: url(/img/meu-namorado-e-um-gato--kagehina-20842853-251020202350.gif);
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+.btn{
+    display: block;
+    background-color: #0396ff;
+    color: #fff;
+    margin-top: 20px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transition: .5s;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #0396ff;
+    border-color: #0396ff;
+}
+.card-descricao{
+    padding: 20px 10px;
+}
